@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Configurar Recyclerview
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager((getApplicationContext()));
+        
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);//otimização
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayout.VERTICAL));
