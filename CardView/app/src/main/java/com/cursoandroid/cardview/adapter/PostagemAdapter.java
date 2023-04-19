@@ -27,6 +27,7 @@ public class PostagemAdapter extends RecyclerView.Adapter<PostagemAdapter.MyView
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
     holder.textNome.setText("Júlio Carvalho");
     holder.textPostagem.setText("#tbt Viagem legal!");
+    
     holder.textImagem.setImageResource(R.drawable.imagem1);
     }
 
